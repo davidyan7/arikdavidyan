@@ -1,0 +1,24 @@
+// SETUP
+@import './setup/variables';
+@import './setup/fonts';
+// BASICS
+@import './basics/base';
+@import './basics/helpers';
+// PAGES
+
+// COMPONENTS
+@import './cmps/header';
+@import './cmps/nav';
+@import './cmps/about';
+@import './cmps/experience';
+@import './cmps/services';
+@import './cmps/portfolio';
+@import './cmps/contact';
+@import './cmps/footer';
+@import './cmps/share';
+
+
+
+
+// MQ
+@import './mq/mq.scss';

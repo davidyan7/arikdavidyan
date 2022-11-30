@@ -1,0 +1,41 @@
+.experience-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+
+    &>div {
+        background: $clr-bg-variant;
+        padding: 2.4rem 5rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: $transition;
+
+        &:hover {
+            background: $clr-primary;
+            border-color: $clr-primary;
+            cursor: default;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: $clr-white;
+        }
+    }
+
+    .experience-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+
+        .experience-details {
+            display: flex;
+            gap: 1rem;
+
+            .experince-details-icon {
+                margin-top: 3px;
+            }
+        }
+    }
+}

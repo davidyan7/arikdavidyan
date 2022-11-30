@@ -1,0 +1,124 @@
+// ============= MEDIA QUERIES (MEDIUM DEVICES============= //
+@media screen and (max-width:1024px) {
+    .continer {
+        width: $container-width-md;
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+
+        .about-me {
+            width: 50%;
+            margin: 2rem auto 4rem;
+        }
+
+        .about-content p {
+            margin: 1rem 0 1.5rem;
+        }
+    }
+
+    .services-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+        .service {
+            height: auto;
+        }
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .container.contact-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+}
+
+// ============= MEDIA QUERIES (SMALL DEVICES============= //
+@media screen and (max-width:600px) {
+    .continer {
+        width: $container-width-sm;
+        background-color: red;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+
+
+    .header-socials,
+    .scroll-down {
+        display: none;
+    }
+
+    .me {
+        margin-top: 4.5rem;
+    }
+
+    .about-container {
+        .about-me {
+            width: 65%;
+            margin: 0 auto 3rem;
+        }
+
+        .about-content {
+            text-align: center;
+
+            .about-cards {
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+            }
+
+            p {
+                margin: 1.5rem 0;
+            }
+        }
+    }
+
+    nav{
+        gap: 0;
+    }
+
+    .experience-container {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+
+        &>div {
+            width: 100%;
+            padding: 2rem 1rem;
+        }
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .container.contact-container {
+        width: $container-width-sm;
+    }
+
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-socials {
+        margin-bottom: 2.6rem;
+    }
+
+}
