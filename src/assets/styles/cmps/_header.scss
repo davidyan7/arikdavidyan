@@ -1,5 +1,5 @@
 header {
-    height: 50vh;
+    height: 88vh;
     padding-top: 7rem;
     overflow: hidden;
     margin-bottom: 4rem;
@@ -29,7 +29,7 @@ header {
         height:200px;
         position: absolute;
     }
-
+    
     .cta {
         margin-top: 2.5rem;
         gap: 1.2rem;
@@ -37,6 +37,9 @@ header {
     }
 
     .header-socials {
+        position: absolute;
+        left: 60%;
+        width: 10px;
         flex-direction: column;
         align-items: center;
         gap: 0.8rem;
@@ -82,4 +85,77 @@ header {
     }
     }
 
+    // @media screen and (max-width: 900px) {
+    //         padding-top: 2em;
+    //         height: 54vh;
+    //         margin-bottom: 0;
+      
+    //     .logo-container{
+    //         width: 100%;
+    //         display: flex;
+    //         justify-content: center;
+    //     }
+    //     .arik-logo {
+    //         position: relative;
+            
+    //     }
+    //     .me{
+    //         display: none;
+    //     }
+    //   }
+      @media screen and (max-width: 900px) {
+        padding-top: 2em;
+        height: 45vh;
+        margin-bottom: 0;
+
+        .logo-container{
+            margin-bottom: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .arik-logo {
+            position: relative;
+        }
+        .me{
+            display: none;
+        }
+  }
+      @media screen and (max-width: 500px) {
+            padding-top: 2em;
+            height: 54vh;
+            margin-bottom: 0;
+      
+        .logo-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .arik-logo {
+            position: relative;
+            
+        }
+        .me{
+            display: none;
+        }
+      }
+      @media screen and (max-width: 300px) {
+        padding-top: 2em;
+        height: 70vh;
+        margin-bottom: 0;
+  
+    .logo-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .arik-logo {
+        position: relative;
+        
+    }
+    .me{
+        display: none;
+    }
+  }
+  
 }

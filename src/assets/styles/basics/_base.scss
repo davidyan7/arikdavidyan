@@ -256,8 +256,16 @@ mark {
 
 input {
     border: none;
+    color: black;
 }
 
 input:focus {
     outline: none;
+    color: black;
+
+}
+
+::-webkit-selection {
+    background-color: #352e7e;
+    color: #fff;
 }

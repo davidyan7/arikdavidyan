@@ -50,10 +50,10 @@
              background: transparent;
              border: 2px solid $clr-primary-variant;
              resize: none;
-             color: $clr-white;
+             color: black;
 
              :focus {
-                 border-color: $clr-primary-variant;
+                 border-color: black;
              }
          }
 
@@ -102,4 +102,5 @@
         //  }
 
      }
+
  }

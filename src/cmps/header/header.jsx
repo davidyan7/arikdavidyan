@@ -7,7 +7,9 @@ import Logo from "../../assets/img/arik_logo.png"
 export function Header() {
     return <header>
         <div className="container header-container">
+            <div className="logo-container">
             <img className="arik-logo" src={Logo} alt="" />
+            </div>
             <h5>Hello I'm</h5>
             <h1>Arik Davidyan</h1>
             <h5 className="">Fullstack Developer </h5>

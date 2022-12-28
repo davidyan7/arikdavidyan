@@ -4,6 +4,9 @@
     gap: 2rem;
     margin-bottom: 4rem;
 
+    @media screen and (max-width: 1200px) {
+        grid-template-columns: unset;
+    }
     &>div {
         background: $clr-bg-variant;
         padding: 2.4rem 5rem;

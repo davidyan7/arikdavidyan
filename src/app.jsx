@@ -16,7 +16,7 @@ export function App() {
             <Experience />
             <Portfolio />
             <Contacts />
-            <Review />
+            {/* <Review /> */}
             <Footer />
         </>
     )

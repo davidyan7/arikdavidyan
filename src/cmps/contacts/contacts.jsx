@@ -10,7 +10,7 @@ export const Contacts = () => {
     const sendEmail = async (ev) => {
         ev.preventDefault()
         try {
-            const res = await emailjs.sendForm('service_ty4hd0l', 'template_ft6whqk', form.current, 'VfPdcZyI6JDFlNywQ')
+            const res = await emailjs.sendForm('service_bjcec62', 'template_ady7eqd', form.current, 'KS9feRugRO-7Ux2I4')
             console.log(res)
             setClassName('active')
         } catch (err) {
